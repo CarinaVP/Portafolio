@@ -87,8 +87,8 @@ h1 {font-size: 3em;}
 }
 .main img {
     border: 7px solid rgb(146, 185, 185);
-    width: 340px;
-    height: 440px;
+    width: 330px;
+    height: 410px;
     z-index: 1;
 }
 
@@ -224,17 +224,27 @@ h1 {font-size: 3em;}
     color: #fff;
 }
 
-.cuadro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 00px;
-    padding: 2em;
-    background-color: #8f1928;
+.portafolio {
+    color: #c0cc17;
+    text-align: center;
+    border: 3px solid green;
+    padding: 10px 20px;
 }
-.form-control1{
+.portafolio p{
+    color: rgb(218, 195, 195);
+    font-family: 'Brush Script MT', cursive;
+    text-shadow: 1px 1px;
+}
+.portafolio{
+    position:relative ;
+    background-color: #8f1928;
+    border: 2px solid black;
+    outline-style: outset;
+    outline-color: rgb(133, 95, 95);
+}
+
+
+/* .form-control1{
     background: rgb(146, 185, 185);
 }
 .uno,
@@ -244,7 +254,8 @@ h1 {font-size: 3em;}
 .cinco,
 .seis{
     background: rgb(146, 185, 185);
-}
+}  */
+
 /*-----------------------------*/
 .gh {
     margin: 0 auto;
